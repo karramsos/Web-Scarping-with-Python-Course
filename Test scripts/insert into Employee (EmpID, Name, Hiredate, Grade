@@ -1,0 +1,7 @@
+insert into Employee (EmpID, Name, Hiredate, Grade, ManagerID)
+values ('1020304', 'John Brown', '20030623', 'Foreman', '1020311');
+insert into Employee (EmpID, Name, Hiredate, Grade, ManagerID)
+values ('1020305', 'Fred Smith', '20040302', 'Laborer', '1020304');
+insert into Employee (EmpID, Name, Hiredate, Grade, ManagerID)
+values ('1020307', 'Anne Jones', '19991125', 'Laborer', '1020304');
+select * from Employee
